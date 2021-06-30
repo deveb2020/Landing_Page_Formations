@@ -1,0 +1,59 @@
+.Form {
+    width: 40%;
+    height: auto;
+    background: rgb(211, 211, 211);
+    text-align: center;
+    margin: 1rem auto;
+    padding: 1rem 5rem;
+}
+
+.first_step_btn {
+    width: 7rem;
+    height: 2.7rem;
+    border-radius: 5px;
+    border: none;
+    margin: 0.5rem;
+    cursor: pointer;
+}
+
+.suivant_firststep_btn, .suivant_secondstep_btn  {
+    width: 7rem;
+    height: 2rem;
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.second_step>button {
+    width: 7rem;
+    height: 2rem;
+    margin: 0.3rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.sections_wrapper {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.Languages_container, .Tools_container {
+    padding: 0.5rem 1.5rem;
+    border-radius: 5px;
+    background: rgba(193, 194, 197, 0.445);
+}
+
+.MuiButton-containedPrimary {
+    margin: 2rem 1rem !important;
+}
+
+.fourth_page>input {
+    height: 1.5rem;
+    margin: 0.3rem;
+    border-radius: 5px;
+    border: 1px solid rgb(100, 99, 99);
+}
