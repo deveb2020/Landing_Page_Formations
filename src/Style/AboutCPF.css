@@ -1,0 +1,17 @@
+.about_cpf {
+    background: rgba(100, 148, 237, 0.548);
+    padding: 1rem 7rem;
+    color: rgba(22, 22, 22, 0.842);
+}
+
+.about_cpf>h2 {
+    text-align: center;
+}
+
+.about_cpf>h2>span {
+    color: rgba(12, 12, 201, 0.747) !important;
+}
+
+.about_cpf>p>b {
+    color: rgb(168, 51, 51) !important;
+}

@@ -1,4 +1,7 @@
 import '../Style/App.css';
+import AboutCPF from './AboutCPF';
+import Courses from './Courses';
+import Homepage from './Homepage';
 import Form from "./MultiStepsForm"
 
 
@@ -6,9 +9,12 @@ function App() {
 
 
     return (
-        <div>
+        <>
+            <Homepage/>
             <Form/>
-        </div>
+            <Courses/>
+            <AboutCPF/>
+        </>
     );
 }
 
