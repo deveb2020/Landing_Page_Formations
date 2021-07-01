@@ -15,6 +15,9 @@
     margin: 0 auto;
 }
 
+.Form>h5 {
+    color: rgba(0, 0, 0, 0.589);
+}
 
 .first_step_btn {
     width: 7rem;
