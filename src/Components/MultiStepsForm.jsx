@@ -22,16 +22,20 @@ const MultiStepsForm = () => {
         await axios.post(`https://sheet.best/api/sheets/9cf6079a-0c6f-48b5-8d9c-8ccddd7429cc`, { Name, FamilyName, Email, PhoneNumber, value })
         .then(res => { console.log(res)})
         .catch(err => console.log(err))
+        alert("Donner envoyer !")
     }
 
     return (
+    <div className="form_section">
+        <h2>Testez votre éligibilité en 30 secondes </h2>
         <div className="Form">
-            <h5>Testez votre éligibilité en 30 secondes (étape {Steps}/4)</h5>
+            <h5>(étape {Steps}/4)</h5>
             { Steps === 1 && <FirstStep Eligible={Eligible} setEligible={setEligible} Steps={Steps} setSteps={setSteps} /> }
             { Steps === 2 && <SecondStep PublicServantPersone={PublicServantPersone} setPublicServantPersone={setPublicServantPersone} Steps={Steps} setSteps={setSteps} /> }
             { Steps === 3 && <ThirdStep setSteps={setSteps} Steps={Steps} setValue={setValue} value={value}  />}
             { Steps === 4 && <FourthStepForm handleSubmit={handleSubmit} Steps={Steps} setSteps={setSteps} setName={setName} setFamillyName={setFamillyName} setEmail={setEmail} setPhoneNumber={setPhoneNumber}/> }
         </div>
+    </div>
     );
 }
 

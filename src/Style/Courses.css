@@ -21,3 +21,31 @@
     height: 70%;
     object-fit: cover;
 }
+
+.descriptive_courses_paragraph {
+    width: 60%;
+    text-align: center;
+    margin: 2rem auto;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 17rem;
+        margin: 1rem 0;
+    }
+    .descriptive_courses_paragraph {
+        width: 90%;
+        text-align:justify;
+        margin: 2rem auto;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 90% !important;
+        margin: 1rem 0;
+    }
+}

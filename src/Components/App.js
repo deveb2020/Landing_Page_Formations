@@ -1,6 +1,7 @@
 import '../Style/App.css';
 import AboutCPF from './AboutCPF';
 import Courses from './Courses';
+import Footer from './Footer';
 import Homepage from './Homepage';
 import Form from "./MultiStepsForm"
 
@@ -14,6 +15,7 @@ function App() {
             <Form/>
             <Courses/>
             <AboutCPF/>
+            <Footer/>
         </>
     );
 }

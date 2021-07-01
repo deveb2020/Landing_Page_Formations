@@ -19,8 +19,6 @@ const AboutCPF = () => {
             <p>- Membre d’une profession libérale ou d’une profession non salariée</p>
             <p>- Conjoint collaborateur</p>
             <p>- À la recherche d’un emploi</p>
-        
-        
         </div>
     )
 }

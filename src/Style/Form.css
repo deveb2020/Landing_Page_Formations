@@ -1,12 +1,20 @@
-.Form {
-    width: 40%;
+.form_section {
     height: auto;
-    background: rgba(153, 187, 226, 0.685);
+    padding: 2rem;
+    background: rgb(170, 196, 245);
     text-align: center;
-    margin: 2rem auto;
+}
+
+.Form {
+    width: 50%;
+    height: auto;
+    background: rgba(240, 242, 243, 0.945);
+    text-align: center;
     padding: 1rem 5rem;
     border-radius: 5px;
+    margin: 0 auto;
 }
+
 
 .first_step_btn {
     width: 7rem;
@@ -15,6 +23,12 @@
     border: none;
     margin: 0.5rem;
     cursor: pointer;
+    background: rgba(104, 103, 104, 0.74);
+    color: white;
+}
+
+.first_step_btn:hover, .second_step>button:hover {
+    background: rgba(39, 38, 39, 0.74);
 }
 
 .suivant_firststep_btn, .suivant_secondstep_btn  {
@@ -34,18 +48,22 @@
     border-radius: 5px;
     border: none;
     cursor: pointer;
+    background: rgba(104, 103, 104, 0.74);
+    color: white;
 }
 
 
 .sections_wrapper {
     display: flex;
     justify-content:space-evenly;
+    flex-wrap: wrap;
 }
 
 .Languages_container, .Tools_container {
     padding: 0.5rem 1.5rem;
     border-radius: 5px;
-    background: rgba(193, 194, 197, 0.445);
+    background: rgb(255, 255, 255);
+    margin: 1rem 0;
 }
 
 .MuiButton-containedPrimary {
@@ -53,8 +71,44 @@
 }
 
 .fourth_page>input {
-    height: 1.5rem;
+    height: 2rem;
+    width: 15rem;
     margin: 0.3rem;
     border-radius: 5px;
     border: 1px solid rgb(100, 99, 99);
+}
+
+.not_eligible_text {
+    color: tomato;
+}
+
+
+@media screen and (max-width: 600px) {
+    .Form {
+        width: 95%;
+        padding: 1rem 0.5rem;
+    }
+
+    .form_section {
+        padding: 1rem !important;
+    }
+
+    .form_section>h2 {
+        font-size: 1.2rem;
+    }
+
+    .not_eligible_text {
+        text-align: justify;
+        padding: 0 1rem;
+    }
+
+    .Languages_container, .Tools_container {
+        width: 81%; 
+    }
+
+    .fourth_page>input {
+        height: 2.5rem;
+        width: 90%;
+    }
+    
 }

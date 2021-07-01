@@ -9,7 +9,7 @@ const Courses = () => {
         <div className="courses_section">
             <h2>NOS FORMATIONS</h2>
             <h4>Développez vos compétences professionnelles et démarquez vous face à la concurrence</h4>
-            <p>Au gré de son calendrier et de ses disponibilités, l’apprenant retrouve son professeur
+            <p className="descriptive_courses_paragraph">Au gré de son calendrier et de ses disponibilités, l’apprenant retrouve son professeur
                 pour des séances interactives animées par des supports de cours dynamiques et ludiques,
                 dont les participants peuvent garder la trace.<b>La technologie se met au service de la pédagogie pour une progression maximale !</b>
             </p>

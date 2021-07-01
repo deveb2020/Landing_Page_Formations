@@ -29,6 +29,8 @@ body {
     text-align: center;
 }
 
+
+
 .photo_logo {
     margin-top: 1.3rem;
 }
@@ -47,4 +49,16 @@ body {
 
 .info_text>.second_paragraph {
     font-size: 1.5rem;
+}
+
+@media screen and (max-width: 600px) {
+    .logo>img {
+        width: 80%;
+        margin: 2rem 0;
+    }
+
+    .info_text {
+        width: 95%;
+        padding: 0 !important;
+    }
 }
