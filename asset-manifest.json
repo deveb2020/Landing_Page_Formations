@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Landing_Page_Formations/static/css/main.04e87d45.chunk.css",
+    "main.js": "/Landing_Page_Formations/static/js/main.53afe321.chunk.js",
+    "main.js.map": "/Landing_Page_Formations/static/js/main.53afe321.chunk.js.map",
+    "runtime-main.js": "/Landing_Page_Formations/static/js/runtime-main.89efa60c.js",
+    "runtime-main.js.map": "/Landing_Page_Formations/static/js/runtime-main.89efa60c.js.map",
+    "static/js/2.a562dcca.chunk.js": "/Landing_Page_Formations/static/js/2.a562dcca.chunk.js",
+    "static/js/2.a562dcca.chunk.js.map": "/Landing_Page_Formations/static/js/2.a562dcca.chunk.js.map",
+    "index.html": "/Landing_Page_Formations/index.html",
+    "static/css/main.04e87d45.chunk.css.map": "/Landing_Page_Formations/static/css/main.04e87d45.chunk.css.map",
+    "static/js/2.a562dcca.chunk.js.LICENSE.txt": "/Landing_Page_Formations/static/js/2.a562dcca.chunk.js.LICENSE.txt",
+    "static/js/main.53afe321.chunk.js.LICENSE.txt": "/Landing_Page_Formations/static/js/main.53afe321.chunk.js.LICENSE.txt",
+    "static/media/Langue.b74d34da.jpg": "/Landing_Page_Formations/static/media/Langue.b74d34da.jpg",
+    "static/media/Word.14618f97.png": "/Landing_Page_Formations/static/media/Word.14618f97.png",
+    "static/media/adobestock-86512117.565564e8.jpeg": "/Landing_Page_Formations/static/media/adobestock-86512117.565564e8.jpeg",
+    "static/media/exel.0ae4a565.png": "/Landing_Page_Formations/static/media/exel.0ae4a565.png",
+    "static/media/logo-cpf.022f3e12.png": "/Landing_Page_Formations/static/media/logo-cpf.022f3e12.png",
+    "static/media/marketing.7594a4a1.jpg": "/Landing_Page_Formations/static/media/marketing.7594a4a1.jpg",
+    "static/media/outlook.d0227cf9.jpg": "/Landing_Page_Formations/static/media/outlook.d0227cf9.jpg",
+    "static/media/powerpoint.20455c29.png": "/Landing_Page_Formations/static/media/powerpoint.20455c29.png",
+    "static/media/reseau.531187f4.jpg": "/Landing_Page_Formations/static/media/reseau.531187f4.jpg",
+    "static/media/seo.f1606059.jpg": "/Landing_Page_Formations/static/media/seo.f1606059.jpg",
+    "static/media/spain.e0052ecf.png": "/Landing_Page_Formations/static/media/spain.e0052ecf.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.89efa60c.js",
+    "static/js/2.a562dcca.chunk.js",
+    "static/css/main.04e87d45.chunk.css",
+    "static/js/main.53afe321.chunk.js"
+  ]
+}
