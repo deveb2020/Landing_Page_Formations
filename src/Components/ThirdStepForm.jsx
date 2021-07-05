@@ -18,12 +18,8 @@ import Office365 from "../Images/packoffice.png"
     const ThirdStep = (Props) => {
         const { setSteps, Steps,setValue, value } = Props
         const SetFormStep = () => {setSteps(Steps - 1)}
-
-
-        const handleChange = (event) => {
-            setValue(event.target.value);
-        }
-
+        const isAnyCourseSelected = value !== "" ? false : true
+        const handleChange = (event) => { setValue(event.target.value)}
         const englandFLAG = <span className='flags'><img src={Englaandflag} alt="Anglais" /> Anglais</span>
         const germnannyFLAG = <span className='flags'><img src={GermannyFlag} alt="Anglais" /> Allemand</span>
         const spainFLAG = <span className='flags'><img src={SpainFlag} alt="Anglais" /> Espagnol</span>
@@ -65,7 +61,7 @@ import Office365 from "../Images/packoffice.png"
                     </div>
                 </div>
                 <Button variant="contained" color="primary" onClick={SetFormStep}>RETOUR</Button>
-                <Button variant="contained" color="primary" onClick={() => setSteps(4) }>SUIVANT</Button>
+                <Button variant="contained" color="primary" disabled={isAnyCourseSelected} onClick={() => setSteps(4) }>SUIVANT</Button>
 
             </>  
         )
