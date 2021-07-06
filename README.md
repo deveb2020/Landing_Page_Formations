@@ -1,4 +1,4 @@
-# Coachformations - Landing Page Project
+# Coachformations - Landing page project
 
 ## About this repository
 
@@ -9,7 +9,7 @@ This website is used to showcase services and generate more leads
 It is fully responsive !
 
 
-## Functionalitys
+## Functionalities
 
 The main functionality is the contact form. 
 
